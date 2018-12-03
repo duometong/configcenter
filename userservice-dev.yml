@@ -7,7 +7,7 @@ eureka:
     fetchRegistry: false
     serviceUrl:
       #注册中心的ip地址
-      defaultZone: http://192.168.157.133:8761/eureka/
+      defaultZone: http://192.168.157.134:8761/eureka/
 spring:
   #数据库四要素
   datasource:
