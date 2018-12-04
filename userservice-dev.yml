@@ -4,7 +4,7 @@ eureka:
     prefer-ip-address: true
   client:
     registerWithEureka: true
-    fetchRegistry: false
+    fetchRegistry: true
     serviceUrl:
       #注册中心的ip地址
       defaultZone: http://192.168.157.134:8761/eureka/
